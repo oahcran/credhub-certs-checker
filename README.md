@@ -79,6 +79,7 @@ most of them are replaced by new 2018 certificates
 "pks_api_internal"
 "uaa_active_pks_saml_key"
 "tls-docker"
+"kubo_odb_ca"
 ```
 
 ## PAS
@@ -86,3 +87,8 @@ most of them are replaced by new 2018 certificates
 It can be used for PAS since BOSH Director CredHub leveraged for platform internal components certificates. 
 
 It can check some entries not monitored by Ops Manager, for example `/services/tls_ca` used by [MySQL for Pivotal Platform](https://network.pivotal.io/products/pivotal-mysql/)
+
+## CredHub References
+
+* [CredHub Credential Types Doc](https://github.com/cloudfoundry-incubator/credhub/blob/master/docs/credential-types.md)
+* [CredHub Credential Types Code](https://github.com/cloudfoundry-incubator/credhub-cli/blob/master/credhub/credentials/values/types.go)
